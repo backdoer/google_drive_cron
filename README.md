@@ -2,7 +2,7 @@
 
 `drive_sync.py` pulls data from google drive takeout onto computer
 
-`external_drive_sync.py` looks to see if there's an external hard drive available and then moves the takeout to it if so
+`external_drive_sync.py` looks to see if there's an external hard drive available and then moves the takeout to it if so. It then deletes all but the most recent 3 takeouts
 
 
 Cron jobs:
